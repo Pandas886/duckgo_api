@@ -3,3 +3,4 @@ fastapi
 arrow
 duckduckgo-search
 uvicorn
+pytz
