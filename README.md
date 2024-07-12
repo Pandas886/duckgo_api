@@ -10,6 +10,11 @@ docker启动
 docker run -d --name dg-api -p 9400:9400 dg
 ```
 
+docker拉取最新镜像启动
+```
+docker run -d --name dg-api -p 9400:9400  peterpoker/duckduckgo-api:latest
+```
+
 ---
 ```
 duckduckgo-api
