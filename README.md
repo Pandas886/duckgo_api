@@ -1,6 +1,16 @@
 ## async duckduckgo-api
 
+docker 构建
+```
+docker build . -t dg
+```
 
+docker启动
+```
+docker run -d --name dg-api -p 9400:9400 dg
+```
+
+---
 ```
 duckduckgo-api
 
